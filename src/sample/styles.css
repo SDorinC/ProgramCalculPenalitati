@@ -1,0 +1,7 @@
+.label {
+-fx-background-color: teal;
+-fx-font-size: 20;
+-fx-text-fill: white;
+-fx-border-color: black;
+-fx-border-width: 2;
+}

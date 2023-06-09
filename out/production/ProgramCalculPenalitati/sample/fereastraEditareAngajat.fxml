@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.ControllerFereastraEditareAngajat">
+    <content>
+        <VBox alignment="CENTER" layoutX="25.0" spacing="30">
+            <Label fx:id="label" style="-fx-font-size: 15" text="Editati detalii angajat"/>
+            <GridPane alignment="CENTER" vgap="5" hgap="5">
+                <Label text="Nume" style="-fx-font-size: 14" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <Label text="Prenume" style="-fx-font-size: 14" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <Label text="Decizie" style="-fx-font-size: 14" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <Label text="Data deciziei" style="-fx-font-size: 14" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                <Label text="Suma restanta" style="-fx-font-size: 14" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                <TextField fx:id="textField1" style="-fx-font-size: 20" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                <TextField fx:id="textField2" style="-fx-font-size: 20" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                <TextField fx:id="textField3" style="-fx-font-size: 20" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+                <TextField fx:id="textField4" promptText="Ex: 02/02/2008" style="-fx-font-size: 20"
+                           GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+                <TextField fx:id="textField5" promptText="Ex: 123.456" style="-fx-font-size: 20" GridPane.rowIndex="4"
+                           GridPane.columnIndex="1"/>
+            </GridPane>
+        </VBox>
+    </content>
+</DialogPane>
